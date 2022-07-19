@@ -1,0 +1,31 @@
+.projectt{
+    padding:0;
+    text-align:left;
+    padding:0 0 40px 0px ;
+    height:80vh
+}
+
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+
+
+.content{
+    padding:20px 
+}
+
+ h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0 0 0;
+ }
+ p{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px 0 5px 0;
+ }
