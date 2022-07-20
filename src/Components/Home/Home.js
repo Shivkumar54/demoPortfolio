@@ -20,9 +20,9 @@ const Home = () => {
           <h3 className='default-text sm: text-2xl md:text-4xl font-medium'>{text}<Cursor /> </h3>
           
            
-          <div className='md:flex gap-1 mt-5 '>
-          <button className='primary-btn sm:py-2 px-4 mx-2   md:px-9 py-3'  ><a href={Resume} download="Resume" >Download CV</a></button>
-          <button className='secondary-btn sm:py-2 px-4 mx-2    md:px-9 py-3' >Contact Me </button>
+          <div className='md:flex gap-1 mt-5  '>
+          <button className='primary-btn hover:scale-105 duration-500 sm:py-2 px-4 mx-2   md:px-9 py-3'  ><a href={Resume} download="Resume" >Download CV</a></button>
+          <button className='secondary-btn hover:scale-105 duration-500 sm:py-2 px-4 mx-2    md:px-9 py-3' >Contact Me </button>
           </div>
 
           <div>

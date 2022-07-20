@@ -18,8 +18,8 @@ const About = () => {
 
               {/* button  */}
               <div className='md:flex gap-5 mt-5 '>
-          <button className='primary-btn about-primary md:px-9 py-3'  > <FaLinkedin /> Linkedin</button>
-          <button className='secondary-btn about-primary md:px-9 py-3' > <FaGithub />  Github </button>
+          <button className='primary-btn hover:scale-105 duration-500 about-primary md:px-9 py-3'  > <FaLinkedin /> Linkedin</button>
+          <button className='secondary-btn hover:scale-105 duration-500 about-primary md:px-9 py-3' > <FaGithub />  Github </button>
           </div>
               {/* button  */}
 

@@ -8,7 +8,7 @@ const Work = () => {
           <h1 className='work' >Jobs & Internships</h1>
           <div className='work-root container mx-auto px-24'>
           
-          <div className='work-children' >
+          <div className='work-children hover:scale-105 duration-500 cursor-pointer' >
           <div className='imager'>
               <img src='https://www.top-employers.com/contentassets/ed7e1b2cb1fd40cab269b2f1839ce5ce/oid00d200000000wi7ids0683y00000jvywbda3y000000iazmsgikkcyh5cad4etln20g6hz3b1gdurj453kqqoqlxgaaspdffalse3?format=jpeg&bgcolor=white&quality=75&height=75' alt='' />
           </div>
@@ -28,7 +28,7 @@ Projects given by the team</p>
           </div>
 
 
-          <div className='work-children' >
+          <div className='work-children hover:scale-105 duration-500 cursor-pointer' >
           <div className='imager'>
               <img src='https://pbs.twimg.com/profile_images/1463940373789626369/86v0rfLj_400x400.jpg' alt='' />
           </div>
@@ -49,7 +49,7 @@ responsive website and Book My Show Clone </p>
           </div>
 
 
-          <div className='work-children' >
+          <div className='work-children hover:scale-105 duration-500 cursor-pointer' >
           <div className='imager'>
               <img src='https://zenprospect-production.s3.amazonaws.com/uploads/pictures/61c6541a7e99bd000128cb53/picture' alt='' />
           </div>

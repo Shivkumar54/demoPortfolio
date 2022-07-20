@@ -1,13 +1,42 @@
+.proj{
+    height: auto;
+    padding: 50px 80px ;
+}
+
+.projectRoot{
+    margin-top:50px
+}
+
 .projectt{
     padding:0;
     text-align:left;
     padding:0 0 40px 0px ;
-    height:80vh
+    height:65vh
+}
+
+.sliderr{
+    padding:5px 10px;
 }
 
 
+.slick-prev:before {
+    content: "<";
+    font-size: 25px !important;
+
+  }
+  
+  .slick-next:before {
+    content: ">";
+    font-size: 25px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(24, 24, 24)!important;
+}
+
 .slick-slide > div {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 /* the parent */
 .slick-list {
@@ -16,7 +45,7 @@
 
 
 .content{
-    padding:20px 
+    padding: 7px 10px; 
 }
 
  h1{
@@ -29,3 +58,18 @@
     font-weight: 600;
     margin: 5px 0 5px 0;
  }
+
+ @media screen and (max-width:768px) {
+    .projectt{
+        padding:0;
+        text-align:left;
+        padding:0 0 40px 0px ;
+        height:50vh
+    }
+    
+    .proj{
+        height: auto;
+        padding: 30px 20px
+    }
+
+}

@@ -1,0 +1,38 @@
+.wrk{
+    text-align: left;
+}
+
+.texter{
+    width: 100%
+}
+
+.imgr{
+    width: 100%
+}
+.imgr img{
+    width: 100%
+}
+
+.contact{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.inputerr{
+    border: 1px solid black;
+    text-indent: 5px;
+    padding: 5px ;
+    border-radius: 5px;
+}
+
+.contact-btn{
+    width: 150px;
+    background-color: #0E1E4D;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    
+}

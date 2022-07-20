@@ -1,6 +1,6 @@
 
 .work{
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 50px;
     font-weight: 700;
     text-align:center;
@@ -83,12 +83,12 @@
         padding: 10px;
     }
     .work{
-        margin-top: 150px;
-        font-size: 50px;
+        margin-top: 80px;
+        font-size: 30px;
         font-weight: 700;
         text-align:center;
-        margin-bottom: 30px;
-        padding-left: 10px;
+        margin-bottom: 20px;
+        /* padding-left: 10px; */
     }
    
 }

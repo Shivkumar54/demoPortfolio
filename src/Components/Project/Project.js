@@ -13,14 +13,14 @@ const Project = () => {
     infinite: false,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 2,
           infinite: true,
           dots: true
         }
@@ -29,7 +29,7 @@ const Project = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2
         }
       },
@@ -112,15 +112,21 @@ const Project = () => {
 
 
   return (
-    <div className="container gap-5 mx-auto px-6 ">
-      <h1 className='work' >Projects </h1>
+    <div className=' projectRoot' >
+      <div className=' container mx-auto text-center'>
+      <h1 className='work' >Project</h1>
+      </div>
+      
+    <div className=" proj bg-slate-200 "  >
 
-         <Slider {...settings} >
+<div className="md:container gap-5 mx-auto px-2 ">
+
+         <Slider {...settings} className="sliderr" >
         {projectList.map((eachList) =>
   (
     
-    <div className=''>
-      <div className='projectt shadow-md rounded-lg grid-cols-1 sm:grid-cols-4 gap-6 mb-5 py-8 px-12 sm:px-0 '>
+    <div className='projectListsRoot'>
+      <div className='projectt shadow-lg hover:scale-105 duration-500 bg-white rounded-lg '>
       <div key={eachList.id} className='w-fit h-auto '>
           <img src ={eachList.projectImg} alt='' className='bg-cover w-screen' />
 
@@ -140,15 +146,13 @@ const Project = () => {
 
           </div>
     </div>
-
-
         </div>
   ))}
      </Slider>      
-
-        
         </div>
 
+    </div>
+    </div>
 
   )
 }
